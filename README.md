@@ -17,7 +17,7 @@ Concretly, we use a layer for each element: one that contains the lines of the d
 #### Extracting the outlines of the drawing
 Once your photo is opened with Gimp, Duplicate the layer that contains the photo using the menu: **layer > duplicate layer** or the icon in the menu dedicated to the layers. When duplicated, you should have 2 layers in your menu (cf. the following picture, i renamed my 2 layers: Outlines & Colors).
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.png)
 
 Now, we are going to extract the outlines of the image. Activate the layer above and then select **Filters > Border Detection > Outline**.
 For this example, the *"Sobel" algorithm with a quantity of 1.0* works well. Of course, it is up to you to see which setting is the most appropriate to your image. 
