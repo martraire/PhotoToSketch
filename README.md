@@ -56,19 +56,20 @@ At the end of the first part, we have finished with the drawing. Now, let's work
 
 We select the second layer, renamed "colors", and apply a paint effect: menu **Filters> Artistic> Oil Painting**. The size of the mask corresponds to the grain size of the paint, so choose a size large enough for the colors to give the impression of drooling. I invite you to test a combination of parameters according to what you want to get. Here are the settings for the photo of the example:
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step6.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step6.png)
 
 #### Saturation and brightness 
 To finish, we give an artificial appearance to the colors to get closer to a watercolor effect. We will increase the brightness (to give the impression of dilution of the color) and increase the saturation (to make the colors more artificial).
 
 From the **Colors> Hue-Saturation** menu, set the *brightness to 40* and *increase the saturation to 100*.
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step7.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step7.png)
 
 Finally, here is the result :
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step8.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step8.png)
 
+### Final result
 And a last one comparing our drawing with the original picture:
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComparison.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComparison.png)
