@@ -22,7 +22,7 @@ Once your photo is opened with Gimp, Duplicate the layer that contains the photo
 Now, we are going to extract the outlines of the image. Activate the layer above and then select **Filters > Border Detection > Outline**.
 For this example, the *"Sobel" algorithm with a quantity of 1.0* works well. Of course, it is up to you to see which setting is the most appropriate to your image. 
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step2.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step2.png)
 
 
 #### Cleaning and improving contrasts
@@ -31,13 +31,13 @@ After confirmation, you get a predominantly black image with white plots. There 
 
 Now, it is time to clean the layer that contains the lines to remove all unnecessary traces. For this, we increase the contrasts considerably by using the curves: menu **Colors > Curves**. In the window, distort the curve in this way:
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step3.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step3.png)
 
 N.B: I strongly advise you to spend some time learning and understanding the curved tool. It is truly an indispensable tool for photo editing. Once you know how to use it, you will not be able to do without it !
 
 At this point you should get this:
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step4.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step4.png)
 
 
 #### Inverting color and making the background transparent
@@ -46,8 +46,29 @@ Then, we invert the colors to have black lines on white background: menu **Color
 
 We must change the white background as transparent. To do this, we add a layer mask: right click on the layer then choose *"add a layer mask"*. In the window, select *"Copy the layer in grayscale"* and check *"invert the mask"*.
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step5.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/step5.png)
 
 At the end of the first part, we have finished with the drawing. Now, let's work on the background colors.
 
 
+### 2. Color processing
+#### Adding a filter
+
+We select the second layer, renamed "colors", and apply a paint effect: menu **Filters> Artistic> Oil Painting**. The size of the mask corresponds to the grain size of the paint, so choose a size large enough for the colors to give the impression of drooling. I invite you to test a combination of parameters according to what you want to get. Here are the settings for the photo of the example:
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step6.jpg)
+
+#### Saturation and brightness 
+To finish, we give an artificial appearance to the colors to get closer to a watercolor effect. We will increase the brightness (to give the impression of dilution of the color) and increase the saturation (to make the colors more artificial).
+
+From the **Colors> Hue-Saturation** menu, set the *brightness to 40* and *increase the saturation to 100*.
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step7.jpg)
+
+Finally, here is the result :
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step8.jpg)
+
+And a last one comparing our drawing with the original picture:
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComparison.jpg)
