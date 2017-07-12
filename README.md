@@ -2,9 +2,9 @@
 
 ### Introduction
 This tutorial describes how to use some aspects of Gimp to convert a picture into a drawing. Useful to insert the drawing in a comic or to avoid problems of copyright ;)
-In this example, we start with the following picture of a temple in Seoul, Korea. Then, I will guide you step by step to turn this picture into a drawing. 
+In this example, we start with the following picture of the city of Turin, Italy. Then, I will guide you step by step to turn this picture into a drawing. 
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Seoul.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Turin.jpg)
 
 Basically, it is a two-steps process:
   * First, we extract the outlines of the drawing (black lines),
@@ -17,7 +17,7 @@ Concretly, we use a layer for each element: one that contains the lines of the d
 #### Extracting the outlines of the drawing
 Once your photo is opened with Gimp, Duplicate the layer that contains the photo using the menu: **layer > duplicate layer** or the icon in the menu dedicated to the layers. When duplicated, you should have 2 layers in your menu (cf. the following picture, i renamed my 2 layers: Outlines & Colors).
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.png)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.jpg)
 
 Now, we are going to extract the outlines of the image. Activate the layer above and then select **Filters > Border Detection > Outline**.
 For this example, the *"Sobel" algorithm with a quantity of 1.0* works well. Of course, it is up to you to see which setting is the most appropriate to your image. 
@@ -48,7 +48,11 @@ We must change the white background as transparent. To do this, we add a layer m
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/step5.png)
 
-At the end of the first part, we have finished with the drawing. Now, let's work on the background colors.
+At the end of the first part, we have finally finished with the drawing. You should obtain something like this: 
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Result_EndPart1.png)
+
+Now, let's work on the background colors.
 
 
 ### 2. Color processing
@@ -67,9 +71,19 @@ From the **Colors> Hue-Saturation** menu, set the *brightness to 40* and *increa
 
 Finally, here is the result :
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step8.png)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step8.jpg)
 
 ### Final result
-And a last one comparing our drawing with the original picture:
+Finally, a comparison of the original picture with our drawing:
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComparison.png)
+
+
+## More example
+
+- Temple in Seoul, Korea:
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex2.png)
+
+
+
