@@ -85,12 +85,21 @@ Finally, a comparison of the original picture with our drawing:
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex2.png)
 
-- Opera of Sydney, Australia:
+- Temple in Kyoto, Japan:
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex3.png)
 
-- A bridge in Chengdu, China:
+
+- Opera of Sydney, Australia:
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex4.png)
+
+- View from the Academia Bridge in Venice, Italy:
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex5.png)
+
+- A bridge in Chengdu, China:
+
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/FinalComp_ex6.png)
 
 
