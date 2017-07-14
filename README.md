@@ -17,7 +17,7 @@ Concretly, we use a layer for each element: one that contains the lines of the d
 #### Extracting the outlines of the drawing
 Once your photo is opened with Gimp, Duplicate the layer that contains the photo using the menu: **layer > duplicate layer** or the icon in the menu dedicated to the layers. When duplicated, you should have 2 layers in your menu (cf. the following picture, i renamed my 2 layers: Outlines & Colors).
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.jpg)
+![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Step1.png)
 
 Now, we are going to extract the outlines of the image. Activate the layer above and then select **Filters > Border Detection > Outline**.
 For this example, the *"Sobel" algorithm with a quantity of 1.0* works well. Of course, it is up to you to see which setting is the most appropriate to your image. 
@@ -46,13 +46,13 @@ Then, we invert the colors to have black lines on white background: menu **Color
 
 We must change the white background as transparent. To do this, we add a layer mask: right click on the layer then choose *"add a layer mask"*. In the window, select *"Copy the layer in grayscale"* and check *"invert the mask"*.
 
-![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/step5.png)
 
 At the end of the first part, we have finally finished with the drawing. You should obtain something like this: 
 
 ![alt text](https://github.com/martraire/PhotoToSketch/blob/master/images/Result_EndPart1.png)
 
 Now, let's work on the background colors.
+
 
 
 ### 2. Color processing
